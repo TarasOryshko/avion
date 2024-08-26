@@ -1,0 +1,50 @@
+.main {
+  padding: 20px 28px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  overflow: hidden;
+  background-color: #fff;
+}
+.flexIcon {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.navList {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 80px;
+}
+.btnSearch {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.linkToHome {
+  text-decoration: none;
+  color: #000;
+}
+.imgShop {
+  display: block;
+  width: 20px;
+  position: relative;
+}
+.imgShopLength {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+}
+li {
+  list-style: none;
+}

@@ -1,0 +1,36 @@
+.btn1 {
+  padding: 16px 32px;
+  background-color: #4e4d93;
+  color: #fff;
+  border: none;
+}
+.purpleBlock {
+  background-color: #2a254b;
+  color: white;
+}
+.textBalance {
+  text-wrap: balance;
+  margin-bottom: 40px;
+}
+.purpleFlex1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60px;
+}
+.container {
+  display: flex;
+}
+.container2 {
+  display: flex;
+}
+.hover:hover {
+  scale: 1.05;
+}
+.hover {
+  transition: scale 0.5s ease;
+}
+.smallBox {
+  max-width: 1280px;
+  margin: 40px auto;
+}
